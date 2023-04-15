@@ -1,8 +1,8 @@
-from modulo1 import Modulo1
-from modulo2 import Modulo2
+from algo.src.module1 import MyClass1
+from algo.src.module2 import MyClass2
 
-modulo1 = Modulo1(2, 3)
-modulo2 = Modulo2(10)
+obj1 = MyClass1(10)
+obj2 = MyClass2("World")
 
-print(modulo1.multiplicar())
-print(modulo2.sumar(modulo1.x, modulo1.y))
+print(obj1.double_value())
+obj2.say_hello()
