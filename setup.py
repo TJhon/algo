@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='algo',
-    version='0.25',
+    version='0.251',
     packages=["src"],
 	include_package_data=True,
 	description= "Python version of Synthetic difference in differences",
