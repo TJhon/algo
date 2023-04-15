@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='algo',
     version='0.24',
-    packages=find_packages(where='src'),
+    packages=["src"],
     install_requires=[
         # any dependencies required by your package
     ],
