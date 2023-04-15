@@ -4,6 +4,8 @@ setup(
     name='algo',
     version='0.25',
     packages=["src"],
+	include_package_data=True,
+	description= "Python version of Synthetic difference in differences",
     install_requires=[
         # any dependencies required by your package
     ],
