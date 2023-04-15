@@ -1,7 +1,6 @@
-class Modulo1:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-    def multiplicar(self):
-        return self.x * self.y
+class MyClass1:
+    def __init__(self, value):
+        self.value = value
+        
+    def double_value(self):
+        return self.value * 2
